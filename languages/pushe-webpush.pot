@@ -1,0 +1,134 @@
+# Copyright (C) 2019 pushe.co
+# This file is distributed under the same license as the Pushe Webpush plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pushe Webpush 0.3.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pushe-webpush\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-16T11:02:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: pushe-webpush\n"
+
+#. Plugin Name of the plugin
+#: inc/pages/AdminPages.php:35
+msgid "Pushe Webpush"
+msgstr ""
+
+#. Description of the plugin
+msgid "Official Pushe.co's webpush plugin for wordpress."
+msgstr ""
+
+#. Author of the plugin
+msgid "pushe.co"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pushe.co"
+msgstr ""
+
+#: inc/api/callbacks/ModalOptionsCallback.php:20
+msgid "These options are, available parameters of Pushe's webpush subscribe modal and All fields are optional, and modal would show default value for them."
+msgstr ""
+
+#: inc/api/callbacks/ModalOptionsCallback.php:21
+msgid "For more information you can check out the documentation at "
+msgstr ""
+
+#: inc/api/callbacks/SettingsCallbacks.php:18
+msgid "* app id:"
+msgstr ""
+
+#: inc/api/callbacks/SettingsCallbacks.php:18
+msgid "You should get your app_id from"
+msgstr ""
+
+#: inc/api/callbacks/SettingsCallbacks.php:18
+msgid "Pushe.co's console"
+msgstr ""
+
+#: inc/api/callbacks/SettingsCallbacks.php:19
+msgid "Only one of `Only show in these pages` or `Do not show in these pages` field would work."
+msgstr ""
+
+#: inc/api/callbacks/SettingsCallbacks.php:20
+msgid "To figure out how to find your page numbers, checkout "
+msgstr ""
+
+#: inc/api/callbacks/SettingsCallbacks.php:20
+msgid "our documentations"
+msgstr ""
+
+#: inc/pages/AdminPages.php:47
+#: inc/pages/AdminPages.php:90
+msgid "Settings"
+msgstr ""
+
+#: inc/pages/AdminPages.php:65
+#: inc/pages/AdminPages.php:96
+msgid "Modal Options"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:23
+msgid "app id"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:32
+msgid "enable webpush"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:42
+msgid "Do not show in these pages"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:51
+msgid "Only show in these pages"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:62
+msgid "show dialog"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:72
+msgid "title"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:81
+msgid "content"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:90
+msgid "accept text"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:99
+msgid "reject text"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:108
+msgid "icon"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:117
+msgid "dialog position"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:130
+msgid "dialog position in mobile"
+msgstr ""
+
+#: inc/pages/SettingsFieldsBuilder.php:143
+msgid "dialog retry time"
+msgstr ""
+
+#: templates/modalOptions.php:2
+msgid "Pushe Modal Options"
+msgstr ""
+
+#: templates/settings.php:2
+msgid "Pushe webpush settings"
+msgstr ""

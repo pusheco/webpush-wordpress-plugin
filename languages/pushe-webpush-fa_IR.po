@@ -1,0 +1,147 @@
+# Copyright (C) 2019 pushe.co
+# This file is distributed under the same license as the Pushe Webpush plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pushe Webpush 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pushe-webpush\n"
+"POT-Creation-Date: 2019-09-16T11:02:10+00:00\n"
+"PO-Revision-Date: 2019-09-16 15:44+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: pushe-webpush\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+#. Plugin Name of the plugin
+#: inc/pages/AdminPages.php:35
+msgid "Pushe Webpush"
+msgstr "پوشه وب‌پوش"
+
+#. Description of the plugin
+msgid "Official Pushe.co's webpush plugin for wordpress."
+msgstr "پلاگین رسمی وب‌پوش پوشه برای وردپرس"
+
+#. Author of the plugin
+msgid "pushe.co"
+msgstr "pushe.co"
+
+#. Author URI of the plugin
+msgid "https://pushe.co"
+msgstr "https://pushe.co"
+
+#: inc/api/callbacks/ModalOptionsCallback.php:20
+msgid ""
+"These options are, available parameters of Pushe's webpush subscribe modal "
+"and All fields are optional, and modal would show default value for them."
+msgstr ""
+"فیلد های زیر آپشن های دیالوگ عضویت می باشند که وارد کردن مقدار برای تمامی "
+"آنها اختیاری می‌باشد. در صورت خالی گذاشتن آنها دیالوگ با مقادیر پیشفرض که در "
+"راهنما موجود می‌باشد نمایش داده می شوند."
+
+#: inc/api/callbacks/ModalOptionsCallback.php:21
+msgid "For more information you can check out the documentation at "
+msgstr ""
+"با مراجعه به آدرس مقابل می توانید راهنمای وب‌پوش و دیالوگ عضویت را مشاهده "
+"کنید "
+
+#: inc/api/callbacks/SettingsCallbacks.php:18
+#, fuzzy
+#| msgid "app id"
+msgid "* app id:"
+msgstr "app_id وب سایت"
+
+#: inc/api/callbacks/SettingsCallbacks.php:18
+msgid "You should get your app_id from"
+msgstr "می توانید app_id وب‌سایت خود را از"
+
+#: inc/api/callbacks/SettingsCallbacks.php:18
+msgid "Pushe.co's console"
+msgstr "کنسول پوشه دریافت کنید"
+
+#: inc/api/callbacks/SettingsCallbacks.php:19
+msgid ""
+"Only one of `Only show in these pages` or `Do not show in these pages` field "
+"would work."
+msgstr ""
+"از بین فیلدهای \"فقط در این صفحات نمایش داده شود\" و \"در این صفحات نمایش "
+"داده نشود\" فقط یکی را می‌توان استفاده کرد."
+
+#: inc/api/callbacks/SettingsCallbacks.php:20
+msgid "To figure out how to find your page numbers, checkout "
+msgstr "برای اطلاع از نحوه‌ی پیدا کردن شماره صفحات به مستندات رجوع کنید: "
+
+#: inc/api/callbacks/SettingsCallbacks.php:20
+msgid "our documentations"
+msgstr "راهنمای وردپرس"
+
+#: inc/pages/AdminPages.php:47 inc/pages/AdminPages.php:90
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: inc/pages/AdminPages.php:65 inc/pages/AdminPages.php:96
+msgid "Modal Options"
+msgstr "دیالوگ عضویت"
+
+#: inc/pages/SettingsFieldsBuilder.php:23
+msgid "app id"
+msgstr "app_id وب سایت"
+
+#: inc/pages/SettingsFieldsBuilder.php:32
+msgid "enable webpush"
+msgstr "فعال سازی وب‌پوش"
+
+#: inc/pages/SettingsFieldsBuilder.php:42
+msgid "Do not show in these pages"
+msgstr "در این صفحات نمایش داده نشود"
+
+#: inc/pages/SettingsFieldsBuilder.php:51
+msgid "Only show in these pages"
+msgstr "فقط در این صفحات نمایش داده شود"
+
+#: inc/pages/SettingsFieldsBuilder.php:62
+msgid "show dialog"
+msgstr "نمایش دیالوگ عضویت"
+
+#: inc/pages/SettingsFieldsBuilder.php:72
+msgid "title"
+msgstr "عنوان دیالوگ"
+
+#: inc/pages/SettingsFieldsBuilder.php:81
+msgid "content"
+msgstr "متن دیالوگ"
+
+#: inc/pages/SettingsFieldsBuilder.php:90
+msgid "accept text"
+msgstr "متن دکمه تایید"
+
+#: inc/pages/SettingsFieldsBuilder.php:99
+msgid "reject text"
+msgstr "متن دکمه رد"
+
+#: inc/pages/SettingsFieldsBuilder.php:108
+msgid "icon"
+msgstr "آیکون"
+
+#: inc/pages/SettingsFieldsBuilder.php:117
+msgid "dialog position"
+msgstr "موقعیت نمایش دیالوگ"
+
+#: inc/pages/SettingsFieldsBuilder.php:130
+msgid "dialog position in mobile"
+msgstr "موقعیت نمایش دیالوگ در موبایل"
+
+#: inc/pages/SettingsFieldsBuilder.php:143
+msgid "dialog retry time"
+msgstr "زمان جلوگیری از تکرار نمایش"
+
+#: templates/modalOptions.php:2
+msgid "Pushe Modal Options"
+msgstr "آپشن های دیالوگ عضویت"
+
+#: templates/settings.php:2
+msgid "Pushe webpush settings"
+msgstr "تنظیمات وب‌پوش"

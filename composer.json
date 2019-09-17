@@ -1,0 +1,16 @@
+{
+    "name": "pushe/pushe-webpush",
+    "authors": [
+        {
+            "name": "pushe.co",
+            "email": "info@pushe.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    },
+    "require-dev": {
+    }
+}
