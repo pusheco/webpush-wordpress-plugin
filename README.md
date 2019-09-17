@@ -1,0 +1,1 @@
+## Pushe official wordpress plugin for webpush
