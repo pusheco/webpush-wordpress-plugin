@@ -1,17 +1,17 @@
-=== pushe-webpush ===
-Tags: webpush, push, push notification, pushe, pushe.co, پوشه , پوش , نوتیفیکیشن, وب پوش
+=== Pushe Web Push Notification ===
+Tags: webpush, web push, web push notification, notification, push, push notification, pushe, pushe.co, پوشه , پوش , نوتیفیکیشن, وب پوش
 Requires at least: 3.5
 Requires PHP: 5.2.4
 Tested up to: 5.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
-Pushe.co's official webpush plugin.
+Pushe.co's official web push notification plugin.
 
 == Description ==
 
-This plugin is a free push notification service for WordPress websites.
-It allows you to easily add push notifications to any website.
+This plugin is a free web push notification service for WordPress websites.
+It allows you to easily add web push notifications to any website.
 
 Web push notifications are notifications that can be sent to a user via desktop web and mobile web.
 Web push notifications are delivered on a user's desktop or mobile screen anytime they have their browser open.
