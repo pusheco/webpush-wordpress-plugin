@@ -7,11 +7,13 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
 Pushe.co's official web push notification plugin.
+Pushe.co console is only available for Farsi language (English version will come soon).
 
 == Description ==
 
 This plugin is a free web push notification service for WordPress websites.
 It allows you to easily add web push notifications to any website.
+Pushe.co console is only available for Farsi language (English version will come soon).
 
 Web push notifications are notifications that can be sent to a user via desktop web and mobile web.
 Web push notifications are delivered on a user's desktop or mobile screen anytime they have their browser open.
