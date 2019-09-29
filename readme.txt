@@ -42,6 +42,10 @@ For more information you can check the [documentation](https://pushe.co/docs/web
 
 == Changelog ==
 
+= 0.4.1 =
+* Fix plugin settings link
+* Minor improvments
+
 = 0.4.0 =
 * Fix show dialog quotation bug
 * Add ability to specify on which pages show or not show dialog

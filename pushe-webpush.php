@@ -5,7 +5,7 @@
 /*
  * Plugin Name: Pushe Webpush
  * Description: Official Pushe.co's webpush plugin for wordpress.
- * version: 0.4.0
+ * version: 0.4.1
  * Author: pushe.co
  * Author URI: https://pushe.co
  * License: GPL-3.0
