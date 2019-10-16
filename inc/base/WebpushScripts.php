@@ -109,7 +109,7 @@ class WebpushScripts extends BaseController
         $position = $this->getModalOptionsValue('position');
         $mobilePosition = $this->getModalOptionsValue('mobilePosition');
         $dialogRetryRate = $this->getModalOptionsValue('dialogRetryRate');
-
+        $direction = $this->getModalOptionsValue('dialogDirection');
 
         $output = '<script src="https://static.pushe.co/pusheweb.js"></script>';
         $output .= '<script>Pushe.init("' . $appId . '");';
@@ -135,6 +135,9 @@ class WebpushScripts extends BaseController
         }
         if (boolval($dialogRetryRate)) {
             $output .= ',dialogRetryRate:' . $dialogRetryRate;
+        }
+        if (boolval($direction)) {
+            $output .= ',direction:' . '"' . $direction . '"';
         }
         $output .= '};';
         $output .= 'Pushe.subscribe(options);</script>';

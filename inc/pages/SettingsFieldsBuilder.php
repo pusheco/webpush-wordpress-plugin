@@ -148,6 +148,19 @@ class SettingsFieldsBuilder
                 'page' => 'pushe_modal_options',
                 'section' => 'pushe_modal_options_section',
             ),
+            'dialogDirection' => array(
+                'title' => __('dialog direction', 'pushe-webpush'),
+                'placeholder' => 'dialog direction',
+                'option_group' => self::$modal_options_group,
+                'sanitizeCallback' => array($modalOptionsCallback, 'inputSanitize'),
+                'inputCallback' => array($modalOptionsCallback, 'handleSettingsInput'),
+                'page' => 'pushe_modal_options',
+                'section' => 'pushe_modal_options_section',
+                'inputType' => 'select',
+                'options' => array(
+                    'rtl', 'ltr',
+                ),
+            ),
         );
         
         return $items;

@@ -42,6 +42,9 @@ For more information you can check the [documentation](https://pushe.co/docs/web
 
 == Changelog ==
 
+= 0.4.2 =
+* Add support for ltr dialog
+
 = 0.4.1 =
 * Fix plugin settings link
 * Minor improvments
