@@ -1,8 +1,8 @@
 === Pushe Web Push Notification ===
-Tags: webpush, web push, web push notification, notification, push, push notification, pushe, pushe.co, پوشه , پوش , نوتیفیکیشن, وب پوش
+Tags: web push, push notifications, push, notification, engagement
 Requires at least: 3.5
 Requires PHP: 5.2.4
-Tested up to: 5.2
+Tested up to: 5.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
