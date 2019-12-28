@@ -104,6 +104,7 @@ class WebpushScripts extends BaseController
         $showDialog = boolval($showDialog) ? 'true' : 'false';
         $title = $this->getModalOptionsValue('title');
         $content = $this->getModalOptionsValue('content');
+        $icon = $this->getModalOptionsValue('icon');
         $acceptText = $this->getModalOptionsValue('acceptText');
         $rejectText = $this->getModalOptionsValue('rejectText');
         $position = $this->getModalOptionsValue('position');
@@ -120,6 +121,9 @@ class WebpushScripts extends BaseController
         }
         if (boolval($content)) {
             $output .= ',content:' . '"' . addslashes($content) . '"';
+        }
+        if (boolval($icon)) {
+            $output .= ',icon:"' . esc_js($icon) . '"';
         }
         if (boolval($acceptText)) {
             $output .= ',acceptText:' . '"' . addslashes($acceptText) . '"';
