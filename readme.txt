@@ -20,7 +20,7 @@ Web push notifications are delivered on a user's desktop or mobile screen anytim
 
 To use this plugin, you should have an account in [pushe.co](https://pushe.co)'s console in [console.pushe.co](https://console.pushe.co)
 
-For more information you can check the [documentation](https://pushe.co/docs/webpush)
+For more information you can check the [documentation](https://docs.pushe.co/docs/wordpress/intro)
 
 == Installation ==
 
@@ -39,6 +39,7 @@ For more information you can check the [documentation](https://pushe.co/docs/web
 2. pushe webpush subscribe dialog options page
 3. Sample web push notification
 4. Sample web push notification
+5. pushe webpush plugin in wordpress plugins page
 
 == Changelog ==
 
