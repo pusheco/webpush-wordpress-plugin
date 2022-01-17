@@ -47,4 +47,4 @@ For further information you can checkout the [documentation][webpush_doc].
 
 
 [console_url]: https://console.pushe.co
-[webpush_doc]: https://pushe.co/docs/webpush
+[webpush_doc]: https://docs.pushe.co/docs/wordpress/intro
